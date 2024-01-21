@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carousel Slide</title>
+    <!--Styles-->
+    <link rel="stylesheet" href="./assets/styles/reset.css">
+    <link rel="stylesheet" href="./assets/styles/slides.css">
+    <link rel="stylesheet" href="./assets/styles/style.css">
+    <!--End Styles-->
+    <!--Start Scripts-->
+    <script src="./assets/scripts/javascript/slides.js" defer></script>
+    <!--End Scripts-->
+</head>
+<body>
+    <section class="slider">
+        <section class="slider-container">
+
+            <input type="radio" name="btn-carousel" id="radio1">
+            <input type="radio" name="btn-carousel" id="radio2">
+            <input type="radio" name="btn-carousel" id="radio3">
+            <input type="radio" name="btn-carousel" id="radio4">
+
+            <div class="slide-box selected">
+                <img class="img-big" src="./assets/images/asian-castle-big.jpg" alt="">
+                <img class="img-medium" src="./assets/images/asian-castle-medium.jpg" alt="">
+                <img class="img-small" src="./assets/images/asian-castle-small.jpg" alt="">
+            </div>
+
+            <div class="slide-box">
+                <img class="img-big" src="./assets/images/castle-big.jpg" alt="Título Slide 3">
+                <img class="img-medium" src="./assets/images/castle-medium.jpg" alt="Título Slide 3">
+                <img class="img-small" src="./assets/images/castle-small.jpg" alt="Título Slide 3">
+            </div>
+
+            <div class="slide-box">
+                <img class="img-big" src="./assets/images/cosmos-big.jpg" alt="">
+                <img class="img-medium" src="./assets/images/cosmos-medium.jpg" alt="">
+                <img class="img-small" src="./assets/images/cosmos-small.jpg" alt="">
+            </div>
+
+            <div class="slide-box">
+                <img class="img-big" src="./assets/images/butterfly-big.jpg" alt="">
+                <img class="img-medium" src="./assets/images/butterfly-medium.jpg" alt="">
+                <img class="img-small" src="./assets/images/butterfly-small.jpg" alt="">
+            </div>
+
+
+
+            <nav class="nav-auto">
+                <div class="btn-auto1"></div>
+                <div class="btn-auto2"></div>
+                <div class="btn-auto3"></div>
+                <div class="btn-auto4"></div>
+            </nav>
+
+            <nav class="nav-manual">
+                <label for="radio1" class="btn-manual"></label>
+                <label for="radio2" class="btn-manual"></label>
+                <label for="radio3" class="btn-manual"></label>
+                <label for="radio4" class="btn-manual"></label>
+            </nav>
+        </section>
+    </section>
+</body>
+</html>
